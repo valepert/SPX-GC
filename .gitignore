@@ -10,6 +10,7 @@ ZIP_TEMP/
 Distro/
 bin/
 viz/
+dist/
 *.mov
 *.mp4
 *.mp3
