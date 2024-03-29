@@ -13,12 +13,14 @@
   },
   "scripts": {
     "test": "jest",
-    "dev": "nodemon server.js config.json",
+    "dev": "nodemon server.ts config.json",
     "start": "pm2 start server.js --name GC",
     "stop": "pm2 stop server.js"
   },
   "keywords": [],
-  "contributors": ["Tuomo Kulomaa <tuomo@softpix.io> (https://spx.graphics)"],
+  "contributors": [
+    "Tuomo Kulomaa <tuomo@softpix.io> (https://spx.graphics)"
+  ],
   "license": "MIT",
   "dependencies": {
     "axios": "^1.6.8",
@@ -43,8 +45,12 @@
     "winston": "^3.3.3"
   },
   "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.12",
     "jest": "^29.7.0",
     "nodemon": "^2.0.4",
-    "pm2": "^5.3.1"
+    "pm2": "^5.3.1",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2"
   }
 }
